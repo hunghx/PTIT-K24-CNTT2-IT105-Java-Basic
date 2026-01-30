@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ra_edu_btvn_oop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ra_edu_btvn_oop_jar</output-path>
+    <root id="archive" name="ra_edu_btvn_oop.jar">
+      <element id="module-output" name="ra_edu_btvn_oop" />
+    </root>
+  </artifact>
+</component>

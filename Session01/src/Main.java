@@ -5,11 +5,19 @@ public class Main {
         char ch = 'A'; // ký tự đơn
         byte b = 100; // số nguyên nhỏ
         short s = 1000;
-        int i = 1000000;
+        int i = 10;
         long l = 1000000000000L;
         // số thực
         float f = 1.5f;
         double d = 19.99999;
+
+        // ép kiểu : nới rộng / thu hẹp
+        d = s; // ép kiểu ngầm định
+        s  = (short) d; // lỗi mất dữ liệu => ep kiểu tường minh
+
+        d = i/3.0; // 10/3 = 3
+        System.out.println("d = " + d);
+
         System.out.println("Boolean: " + isJavaFun);
         System.out.println("Character: " + ch);
         System.out.println("Byte: " + b);
